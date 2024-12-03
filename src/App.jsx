@@ -4,7 +4,7 @@ import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar.jsx"
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Projects.jsx";
 import Skills from "./components/Skills/Skills";
 
 
