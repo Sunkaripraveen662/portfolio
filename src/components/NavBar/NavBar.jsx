@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
 
-const Navbar = () => {
+const NavBar = () => {
   const [menu, openMenu] = useState(false)
   const [showMenu, setShowmenu] = useState(true)
   return (
@@ -57,4 +57,4 @@ const Navbar = () => {
     </nav>
   )
 }
-export default Navbar
+export default NavBar
