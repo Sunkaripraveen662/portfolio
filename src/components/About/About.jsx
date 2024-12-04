@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../../assets/aboutImg.png'
+import AboutImg from '../../assets/About2.png'
 import { IoArrowForward } from 'react-icons/io5'
 const About = () => {
   return (

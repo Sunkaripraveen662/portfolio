@@ -1,7 +1,7 @@
 import React from 'react';
-import avatarImg from '../../assets/hero.png';
+import avatarImg from '../../assets/image.png';
 import TextChange from '../TextChange';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/Sunkari_Praveen(resume).pdf';
 import { BsDownload } from 'react-icons/bs';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight mt-4">
+        <p className="text-sm md:text-2xl tracking-tight mt-6">
           A dedicated and detail-oriented individual looking for an entry-level
           position at a well-reputed organization to gain experience and
           exposure and expand my knowledge.
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="Avatar" />
+        <img className="h-[559px] object-cover rounded-lg" src={avatarImg} alt="Avatar" />
       </div>
     </div>
   );
